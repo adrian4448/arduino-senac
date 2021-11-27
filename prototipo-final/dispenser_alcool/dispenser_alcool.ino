@@ -33,7 +33,7 @@ Serial.print(distancia);
 Serial.println("cm");  
 
 if(distancia < 5) {
-  servo1.write(500);
+  servo1.write(5000);
   delay(500);
   servo1.write(0);
   delay(500);
